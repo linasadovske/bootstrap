@@ -642,7 +642,7 @@ describe('Modal', () => {
         setTimeout(() => {
           expect(modalEl.style.overflowY).toEqual('')
           done()
-        }, 80)
+        }, 100)
       })
 
       modal.show()
